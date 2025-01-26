@@ -1,0 +1,33 @@
+# flyctl launch added from .gitignore
+# Ignore Gradle project-specific cache directory
+#**/.gradle
+
+# Ignore Gradle build output directory
+#**/build
+# 忽略所有的 application.properties 文件
+#src/main/resources/application.properties
+
+# 忽略所有的 *.env 文件
+**/*.env
+
+# 忽略敏感的 API 密钥文件
+**/*.key
+**/*.pem
+**/*.cer
+
+# 忽略 IntelliJ IDEA 配置文件
+**/.idea
+
+# 忽略 Gradle 和 Maven 构建输出
+#build
+
+# flyctl launch added from .idea/.gitignore
+# Default ignored files
+.idea/shelf
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests
+# Datasource local storage ignored files
+.idea/dataSources
+.idea/dataSources.local.xml
+#fly.toml
