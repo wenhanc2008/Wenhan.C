@@ -75,6 +75,31 @@ A desktop chat application built in Java, with OpenAI GPT-3.5 integration and lo
 
 ---
 
+## 📱 HyperGarageSale
+
+A mobile marketplace app that allows users to anonymously post and browse items for sale. Designed as a minimal second-hand exchange platform for students and communities.
+
+### 🌐 Tech Stack
+
+- **Framework**: Flutter (Dart)  
+- **Backend Services**: Firebase  
+  - **Firestore** – for real-time database  
+  - **Firebase Storage** – for image uploads  
+  - **Firebase Authentication** – anonymous login  
+- **State Management**: setState (local)  
+- **Hosting**: Firebase  
+
+### 📌 Features
+
+- 📸 **Add Post**: Upload item image, title, description, and price  
+- 🧾 **Browse Posts**: View all available items in a responsive card layout  
+- 🔄 **Real-time Updates**: Firestore-backed post listing auto-refreshes  
+- 🆔 **Anonymous Auth**: Uses Firebase Authentication (anonymous) to identify unique users  
+- ☁️ **Image Upload**: Images stored securely in Firebase Storage and shown with posts  
+- 📱 **Mobile-Friendly UI**: Clean interface built with Flutter widgets and scrollable views  
+
+---
+
 ## 🧠 Author
 
 **Wenhan Cheng** — [LinkedIn](https://www.linkedin.com/in/wenhan-c-3a7101339/)  
