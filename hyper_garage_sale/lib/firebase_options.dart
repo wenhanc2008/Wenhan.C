@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDLD4bTQuNzTmraZnPOtlqVhsPW2GkQDWs',
+    apiKey: '',
     appId: '1:265255607081:web:1c1b1fa0679627e36db538',
     messagingSenderId: '265255607081',
     projectId: 'hyper-garage-sale-4dfdf',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBBB9xaZJo5MXRkZ0OeMGuIUZIKLtnCnho',
+    apiKey: '',
     appId: '1:265255607081:android:59a828e2989872c46db538',
     messagingSenderId: '265255607081',
     projectId: 'hyper-garage-sale-4dfdf',
